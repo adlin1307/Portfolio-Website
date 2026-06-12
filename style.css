@@ -85,6 +85,7 @@ body {
 .nav-links a:hover{
     color: #c084fc;
 }
+/* Buttons */
 .btn {
     display: inline-block;
     margin-top: 25px;
@@ -108,6 +109,7 @@ body {
 .btn:hover {
     transform: translateY(-3px);
 }
+/* General Section Styling */
 section{
     max-width:1100px;
     margin:10px auto;
@@ -181,6 +183,7 @@ section h2 {
     color: #d1d5db;
 }
 
+/* Hero Section */
 .hero-image {
     display: flex;
     justify-content: center;
@@ -262,6 +265,7 @@ section h2 {
     margin-bottom: 35px;
 }
 
+/* Social Media Icons */
 .social-icons{
     display: flex;
     gap: 18px;
@@ -295,6 +299,7 @@ section h2 {
     border-color: #c084fc;
 }
 
+/* Profile Image Styling */
 .hero-image-container{
     display: flex;
     justify-content: center;
@@ -453,11 +458,8 @@ section h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-background-image{
-radial-gradient(
-    rgba(168,85,247,0.3) 2px,
-    transparent 2px
-);}
+
+/* About Section */
 .about-content{
     max-width: 1200px;
     margin: 0 auto;
